@@ -1,0 +1,55 @@
+html, body, img {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding-top: 80px;
+    background: url("purple.jpg") top center no-repeat;
+    position: relative;
+    font-family: helvetica, sans-serif;
+}
+
+
+#footer {
+   position: fixed;
+   bottom: 3px;
+   width: 100%;
+}
+
+h1.title {
+    font-size: 80px;
+    text-align: center;
+    color: black;
+    width: 75%;
+}
+
+span {
+    color: rgb(49, 2, 42);
+}
+
+.box {
+    padding: 5px 10px;
+    border: 2px rgb(204, 204, 204) solid;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.5);
+    margin: 0 auto;
+}
+
+#footer .news {
+    color: white;
+    margin: 0 auto;
+    width: 75%;
+    border-radius: 10px 10px 0 0;
+    border-bottom: 0;
+}
+
+#footer a {
+    text-decoration: none;
+    color: rgb(204, 204, 204);
+    padding-right: 10px;
+}
+
+#footer a:hover {
+    color: rgb(49, 2, 42);
+}
