@@ -5,9 +5,13 @@ html, body, img {
 
 body {
     padding-top: 80px;
-    background: url("purple.jpg") top center no-repeat;
+    background: url("purple.jpg") no-repeat center center fixed;
     position: relative;
     font-family: helvetica, sans-serif;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 
